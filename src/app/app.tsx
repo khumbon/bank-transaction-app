@@ -81,7 +81,7 @@ const TransferApp = () => {
         <Card>
           <FlexContainer>
             <Heading as="h1" data-testID="appHeader">
-              Zopa Money Transfers
+              Money Transfers
             </Heading>
             <br />
             {isSubmitted && (

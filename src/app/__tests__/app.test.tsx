@@ -96,7 +96,7 @@ describe("Transactions Form", () => {
       const historyHeader = getByTestId("historyHeader");
 
       console.log(appHeader);
-      expect(appHeader).toHaveTextContent("Zopa Money Transfers");
+      expect(appHeader).toHaveTextContent("Money Transfers");
       expect(formHeader).toHaveTextContent("Enter the details");
       expect(historyHeader).toHaveTextContent("Transactions");
     });
